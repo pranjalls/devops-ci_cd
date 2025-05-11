@@ -1,8 +1,8 @@
 # Task Manager DevOps Project
 A Flask-based task manager app with CI/CD using Jenkins and containerized with Docker.
 # Commands to push github project
-cd <folder_name>
-git init
+cd <folder_name>\n
+git init\n
 git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/your-username/inventory-app.git    # Add remote origin
