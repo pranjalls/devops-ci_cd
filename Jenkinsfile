@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/Arcade138/devops.git'
+                git branch: 'main', url: 'https://github.com/pranjalls/devops-ci_cd.git'
             }
         }
 
